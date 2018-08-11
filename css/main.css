@@ -1,0 +1,105 @@
+/***** BASE *****/
+body {
+  font-family: 'Andika', sans-serif;
+  color: #E4DFDA;
+  background-color: #4281A4;
+}
+#about, #work, #contact {
+  height: 400px;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+    height: 250px;
+}
+header h1 {
+  font-family: 'Coiny', sans-serif;
+  font-size: 48px;
+  float:left;
+  padding: 50px 175px;
+}
+header span {
+  color: #C1666B;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #E4DFDA;
+  font-size: 18px;
+  padding: 15px;
+}
+
+#socialmedia-header ul li {
+  display: inline-block;
+}
+#socialmedia-header ul li a {
+  padding: 25px;
+}
+/***** LOGO *****/
+#logo img{
+  padding: 0 100px;
+}
+
+/***** ABOUT *****/
+#about .full-width
+{
+  padding: 0 80px;
+}
+#about h2
+{
+  font-size: 18px;
+}
+#about p
+{
+  font-size: 16px;
+}
+/***** WORK *****/
+#work .full-width
+{
+  padding: 80px 0;
+}
+#work .half-width
+{
+  float: right;
+}
+#work h2
+{
+  font-size: 18px;
+}
+#work p
+{
+  font-size: 16px;
+}
+/***** CONTACT *****/
+#contact .full-width
+{
+  padding: 110px 0;
+}
+#contact h2
+{
+  font-size: 18px;
+}
+#contact p
+{
+  font-size: 16px;
+}
+#contact a
+{
+
+}
