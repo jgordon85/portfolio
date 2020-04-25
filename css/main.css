@@ -142,6 +142,7 @@ img {
 }
 
 figure {
+  width: 100%;
   margin: 0;
 }
 
@@ -180,7 +181,7 @@ header .content-wrapper {
 }
 
 header figure {
-  width: 20%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -193,7 +194,7 @@ header nav {
    justify-content: space-around;
    align-items: center;
    flex-flow: row wrap;
-   width: 40%;
+   width: 100%;
 }
 
 header nav ul {
@@ -281,6 +282,7 @@ input[type=button] {
 #about .content-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -301,12 +303,15 @@ input[type=button] {
 }
 /* ----------------------- Main ----------------------- */
 #main {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #main .content-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -330,9 +335,16 @@ input[type=button] {
 }
 
 /* ----------------- Work ------------------- */
+#work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #work h2 {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-flow: row wrap;
     width: 80%;
   }
@@ -503,9 +515,6 @@ aside .content-wrapper .form {
 /* Main */
 
 #main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-flow: column wrap;
   width: 90%;
 }
@@ -516,9 +525,6 @@ aside .content-wrapper .form {
 /* Examples */
 
 #work {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-flow: column wrap;
   width: 90%;
 }
